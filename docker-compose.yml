@@ -1,0 +1,6 @@
+version: "3.6"
+
+services:
+  context:
+    build: context
+    image: ${IMAGE:-mattipaksula/invalidate-repro}
