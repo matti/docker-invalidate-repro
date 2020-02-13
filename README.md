@@ -39,3 +39,5 @@ export IMAGE=user/image
 docker-compose build
 ...
 ```
+
+this works, but only on your own machine. if you push the image and somebody else uses it, caches are invalidated at the COPY
