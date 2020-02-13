@@ -1,6 +1,8 @@
 # docker cache invalidate repro
 
 ```
+git clone https://github.com/matti/docker-invalidate-repro
+cd docker-invalidate-repro
 docker-compose pull
 docker-compose build
 ```
