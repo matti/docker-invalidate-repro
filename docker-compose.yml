@@ -2,5 +2,8 @@ version: "3.6"
 
 services:
   context:
-    build: context
+    build:
+      context: context
+      cache_from:
+        - ${CACHE_IMAGE:-mattipaksula/invalidate-repro}
     image: ${IMAGE:-mattipaksula/invalidate-repro}
